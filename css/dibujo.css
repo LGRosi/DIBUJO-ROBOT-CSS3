@@ -44,9 +44,13 @@ body {
 }
 
 .laAntena {
-    background: grey;
-    border: 1px solid rgb(68, 67, 67);
     width: 30px;
-    height: 70px;
+    height: 0px;
     margin: auto;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 40px solid #a7a5a5;
+    position: relative;
+    bottom: 1px;
+    z-index: -1;
 }
