@@ -237,3 +237,24 @@ body {
     border: 3px solid #555;
     background: #b4b3b3;
 }
+
+.elTorso {
+    width: 180px;
+    height: 150px;
+    background: #b4b3b3;
+    margin: auto;
+    border: 3px solid #555;
+    position: relative;
+    top: -99px;
+    display: flex;
+    justify-content: center;
+}
+
+.parte1DelTorso {
+    width: 160px;
+    height: 100px;
+    background: #cff3f0;
+    border: 3px solid #555;
+    border-radius: 5px;
+    margin-top: 7px;
+}
